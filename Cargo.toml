@@ -1,0 +1,15 @@
+[package]
+name = "Open_TCP_Scanner"
+version = "0.1.0"
+Authors = ["Canaan McKenzie"]
+edition = "2022"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+thiserror = "1.0.32"
+anyhow = "1.0.61"
+rayon = "1.5.3"
+serde = {version = "1", features = ["derive"]}
+reqwest = {version = "0.11.11", default-features = false, features = ["json", "blocking", "rustls-tls"]}
+trust-dns-resolver ="0.21"
