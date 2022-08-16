@@ -1,7 +1,7 @@
-#Usage
+# Usage
 
-##Cargo run -- $DOMAIN_NAME
+## Cargo run -- $DOMAIN_NAME
 
-###TODO:
+### TODO:
 
-###increase speed of search from Rayon
+### increase speed of search from Rayon
