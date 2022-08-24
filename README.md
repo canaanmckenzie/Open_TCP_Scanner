@@ -1,7 +1,7 @@
 # Usage
 
-## Cargo run -- $DOMAIN_NAME
+## Cargo run scan $DOMAIN_NAME
 
 ### TODO:
 
-### increase speed of search from Rayon
+### test against known security vulns to test ouput response of different http vulnerabilities
